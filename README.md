@@ -11,7 +11,7 @@
 - Importez `Datas/group2ti2exercice.sql` dans `PHPMyAdmin` en `MariaDB`
 - Créez un `hôte virtuel` vers le dossier `public`
 
-### Structure fonctionnelle
+### Structure fonctionnelle t
 
 - config.php
 - public/index.php
