@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <meta name="description" content="Group2ti2exercice | Accueil"/>
+    <meta name="description" content="Group2ti2exercice | Informations|vue"/>
     <meta name="author" content="Pierre Sandron"/>
     <title>informations| vue</title>
     <!-- Favicon-->
@@ -14,19 +14,39 @@
 <body>
 <!-- Responsive navbar-->
 <?php
-include "menu.html.php";
+include "home.php";
 ?>
 <!-- Page content-->
-<div class="container">
-    <div class="text-center mt-5">
-        <h1>Informations | vue</h1>
-        <p class="lead">A complete project boilerplate built with Bootstrap</p>
-        <p>Bootstrap v5.2.3</p>
-    </div>
-</div>
-<!-- Bootstrap core JS-->
-<script src="js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/MyJS.js"></script>
+<body>
+    
+
+<form>
+  <div class="form-group">
+    <label for="name">Nom :</label>
+    <input id="name" name="name" type="text" required />
+  </div>
+  <div class="form-group">
+    <label for="age">Âge :</label>
+    <input id="age" name="age" type="number" min="18" max="99" required />
+  </div>
+  <div class="form-group">
+    <label for="gender">Sexe :</label>
+    <select id="gender" name="gender" required>
+      <option value="">Sélectionnez...</option>
+      <option value="F">Féminin</option>
+      <option value="M">Masculin</option>
+      <option value="O">Autre</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="satisfaction">Niveau de satisfaction :</label>
+    <input id="satisfaction" name="satisfaction" type="range" min="0" max="10" value="5" />
+    <output for="satisfaction">5</output>
+  </div>
+  <div class="form-group">
+    <button type="submit">Envoyer</button>
+  </div>
+</form>
 </body>
+
 </html>
