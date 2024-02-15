@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description" content="Group2ti2exercice | Accueil"/>
     <meta name="author" content="Pierre Sandron"/>
-    <title>Group2ti2exercice | Accueil</title>
+    <title>informations| vue</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
     <!-- Core theme CSS (includes Bootstrap)-->
@@ -19,7 +19,7 @@ include "menu.html.php";
 <!-- Page content-->
 <div class="container">
     <div class="text-center mt-5">
-        <h1>Group2ti2exercice | Accueil</h1>
+        <h1>Informations | vue</h1>
         <p class="lead">A complete project boilerplate built with Bootstrap</p>
         <p>Bootstrap v5.2.3</p>
     </div>
